@@ -114,16 +114,24 @@ Global Styles
   .dollar1{
     background-color: yellow;
     width:100%;
+    height: 295px;
     text-align: center;
     margin: 0px 0px 20px 0px;
+    padding: 100px;
   }
 
   .dollar2{
     background-color: yellow;
     width:100%;
+    height: 295px;
     text-align: center;
     margin: 10px 0px 0px 0px;
+    padding: 100px;
   }
+
+  /* .dollar1 p, .dollar2 p{
+    padding: 100px;
+  } */
 
   .section2{
     width:100%;
@@ -152,6 +160,21 @@ Global Styles
     padding:10px;
   }
 
+  .fa-hamburger{
+    color: rgb(0, 238, 255);
+  }
+
+  .fa-beer{
+    color: orange;
+  }
+
+  .fa-wine-glass-alt{
+    color:rgb(170, 39, 170);
+  }
+
+  .fa-music{
+    color: gold
+  }
   .section3{
     width: 100%;
     background-color: white;
@@ -198,20 +221,20 @@ Global Styles
   }
 
   .section5 .img_first{
-    width: 220px;
-    height: 220px;
+    width: 100%;
+    height: 100%;
     padding: 10px 10px 10px 0px;
   }
 
   .section5 .img_end{
-    width: 220px;
-    height: 220px;
+    width: 100%;
+    height: 100%;
     padding: 10px 0px 10px 10px;
   }
 
   .section5 .img_center{
-    width: 220px;
-    height: 220px;
+    width: 100%;
+    height: 100%;
     padding: 10px;
   }
 /* Project Code */
@@ -222,6 +245,11 @@ Global Styles
   html {
     font-size: 10px;
   }
+
+  .navbar .navbar-list li{
+    overflow: hidden;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -229,6 +257,15 @@ Global Styles
   html {
     font-size: 12px;
   }
+
+  .navbar .navbar-list li{
+    overflow: hidden;
+  }
+
+  .dollar1, .dollar2{
+    padding:100px 25px;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -236,12 +273,24 @@ Global Styles
   html {
     font-size: 14px;
   }
+
+  .navbar .navbar-list li{
+    overflow: hidden;
+  }
+  
+  .dollar1, .dollar2{
+    padding:100px 50px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   html {
     font-size: 16px;
+  }
+
+  .navbar .navbar-list li{
+    overflow: hidden;
   }
 }
 
